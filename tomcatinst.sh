@@ -21,6 +21,6 @@ sudo sed '/<Manager /i -->\n ' /opt/apache-tomcat-10.0.27/webapps/host-manager/M
 # Restarting tomcat after configuration
 sudo su -
 sh /opt/apache-tomcat-10.0.27/bin/shutdown.sh
-sleep 4
+sleep 3
 sh /opt/apache-tomcat-10.0.27/bin/startup.sh
 
